@@ -3,7 +3,7 @@
 
 - name: install | xcode command line tools
   command: xcode-select --install
-  ignore_errors: yes # TODO: only install command line tools when not already installed...
+  ignore_errors: yes # TODO: Only install command line tools when they are not already installed
   when: ansible_distribution == 'MacOSX'
   tags:
     - bootstrap

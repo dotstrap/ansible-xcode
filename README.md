@@ -4,6 +4,13 @@ ansible-xcode
 
 Configure Xcode.
 
+Installation
+------------
+
+```bash
+ansible-galaxy install mkwmms.xcode
+```
+
 Requirements
 ------------
 
