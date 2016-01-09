@@ -2,12 +2,12 @@ ansible-xcode
 =========
 [![Build Status](https://travis-ci.org/mkwmms/ansible-xcode.svg?branch=master)](https://travis-ci.org/mkwmms/ansible-xcode)
 
-Configure Xcode.
+Configure [Xcode].
 
 Installation
 ------------
 
-```bash
+```
 ansible-galaxy install mkwmms.xcode
 ```
 
@@ -29,10 +29,12 @@ None.
 Example Playbook
 ----------------
 
+Using all the [default variables]:
+
 ```
-    - hosts: servers
+    - hosts: all
       roles:
-         - { role: mkwmms.xcode }
+         - role: mkwmms.xcode
 ```
 
 License
@@ -46,9 +48,12 @@ Author Information
 [@mkwmms]
 
 [@mkwmms]: https://github.com/mkwmms
+[GNU]: http://www.gnu.org/
+[OS X]: http://www.apple.com/osx/
 [Xcode]: https://developer.apple.com/xcode/
 [aura]: https://github.com/aurapm/aura
 [bash]: https://www.gnu.org/software/bash/manual/bashref.html
+[coreutils]: http://www.gnu.org/software/coreutils/
 [default variables]: defaults/main.yml
 [dotstrap]: https://github.com/mkwmms/dotstrap
 [fasd]: https://github.com/clvv/fasd
