@@ -1,0 +1,16 @@
+---
+# Colortheme name(s) and URL(s) to .dvtcolortheme raw files - downloaded to
+# ~/Library/Developer/Xcode/UserData/FontAndColorThemes/${name}.dvtcolortheme
+xcode_colorthemes:
+  - name: Base16 Tomorrow Dark
+    url: 'https://raw.githubusercontent.com/joedynamite/base16-xcode/master/base16-tomorrow.dark.dvtcolortheme'
+  - name: Base16 Eighties Dark
+    url: 'https://raw.githubusercontent.com/joedynamite/base16-xcode/master/base16-eighties.dark.dvtcolortheme'
+  - name: Base16 Solarized Dark
+    url: 'https://raw.githubusercontent.com/joedynamite/base16-xcode/master/base16-solarized.dark.dvtcolortheme'
+  - name: Base16 Default Dark
+    url: 'https://raw.githubusercontent.com/joedynamite/base16-xcode/master/base16-default.dark.dvtcolortheme'
+  - name: Base16 Monokai Dark
+    url: 'https://raw.githubusercontent.com/joedynamite/base16-xcode/master/base16-monokai.dark.dvtcolortheme'
+  - name: Base16 Google Dark
+    url: 'https://raw.githubusercontent.com/joedynamite/base16-xcode/master/base16-google.dark.dvtcolortheme'

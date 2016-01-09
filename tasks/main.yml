@@ -1,0 +1,25 @@
+---
+#####=== install ===#####
+
+- name: install | xcode command line tools
+  command: xcode-select --install
+  ignore_errors: yes # TODO: only install command line tools when not already installed...
+  when: ansible_distribution == 'MacOSX'
+  tags:
+    - bootstrap
+    - install
+
+#####=== configure ===#####
+
+- block:
+    - name: setup | create color theme directory
+      file: path={{ colortheme_config_dir }} state=directory follow=yes
+
+    - name: configure | colorthemes
+      get_url: url={{ item.url }} force=yes
+               dest={{ colortheme_config_dir }}/{{ item.name }}.dvtcolortheme
+      with_items: "{{ xcode_colorthemes }}"
+  when: ansible_distribution == 'MacOSX'
+  tags:
+    - bootstrap
+    - configure

@@ -1,0 +1,2 @@
+---
+colortheme_config_dir: "{{ ansible_user_dir }}/Library/Developer/Xcode/UserData/FontAndColorThemes"
