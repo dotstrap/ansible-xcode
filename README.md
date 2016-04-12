@@ -1,6 +1,6 @@
 ansible-xcode
 =========
-[![Build Status](https://travis-ci.org/mwilliammyers/ansible-xcode.svg?branch=master)](https://travis-ci.org/mwilliammyers/ansible-xcode)
+[![Build Status](https://travis-ci.org/dotstrap/ansible-xcode.svg?branch=master)](https://travis-ci.org/dotstrap/ansible-xcode)
 
 Configure [Xcode].
 
@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```
-ansible-galaxy install mwilliammyers.xcode
+ansible-galaxy install dotstrap.xcode
 ```
 
 Requirements
@@ -34,7 +34,7 @@ Using all the [default variables]:
 ```
     - hosts: all
       roles:
-         - role: mwilliammyers.xcode
+         - role: dotstrap.xcode
 ```
 
 License
